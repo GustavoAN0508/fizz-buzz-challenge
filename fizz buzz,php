@@ -1,0 +1,14 @@
+<?php
+
+for($a = 0, $a<100, $a++){
+  if ($a % 3 == 0){
+    echo("fuzz\n");
+    }
+  else if ($a % 5 == 0){
+    echo("buzz\n");
+    }
+  else{
+    echo($a)
+    }
+}
+
