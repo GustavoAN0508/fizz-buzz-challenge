@@ -2,13 +2,13 @@
 
 for($a = 0, $a<100, $a++){
   if ($a % 3 == 0){
-    echo("fuzz\n");
+    echo "fuzz<br>" ;
     }
   else if ($a % 5 == 0){
-    echo("buzz\n");
+    echo "buzz<br>" ;
     }
   else{
-    echo($a)
+    echo $a;
     }
 }
 
